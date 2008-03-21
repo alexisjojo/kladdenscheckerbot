@@ -107,7 +107,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(12, 164);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(378, 23);
+            this.button1.Size = new System.Drawing.Size(418, 23);
             this.button1.TabIndex = 4;
             this.button1.Text = "Activate";
             this.button1.UseVisualStyleBackColor = true;
@@ -132,7 +132,7 @@
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 3, 10, 3);
-            this.groupBox1.Size = new System.Drawing.Size(208, 60);
+            this.groupBox1.Size = new System.Drawing.Size(248, 60);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Health/Mana";
@@ -187,7 +187,7 @@
             this.groupBox4.Controls.Add(this.level);
             this.groupBox4.Location = new System.Drawing.Point(12, 77);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(208, 75);
+            this.groupBox4.Size = new System.Drawing.Size(248, 75);
             this.groupBox4.TabIndex = 8;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Status";
@@ -227,7 +227,7 @@
             // ml
             // 
             this.ml.AutoSize = true;
-            this.ml.Location = new System.Drawing.Point(178, 49);
+            this.ml.Location = new System.Drawing.Point(191, 49);
             this.ml.Name = "ml";
             this.ml.Size = new System.Drawing.Size(11, 13);
             this.ml.TabIndex = 2;
@@ -245,7 +245,7 @@
             // level
             // 
             this.level.AutoSize = true;
-            this.level.Location = new System.Drawing.Point(178, 17);
+            this.level.Location = new System.Drawing.Point(191, 20);
             this.level.Name = "level";
             this.level.Size = new System.Drawing.Size(11, 13);
             this.level.TabIndex = 0;
@@ -262,7 +262,7 @@
             this.groupBox5.Controls.Add(this.label10);
             this.groupBox5.Controls.Add(this.X);
             this.groupBox5.Controls.Add(this.label8);
-            this.groupBox5.Location = new System.Drawing.Point(226, 12);
+            this.groupBox5.Location = new System.Drawing.Point(266, 15);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(164, 124);
             this.groupBox5.TabIndex = 9;
@@ -360,7 +360,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(403, 199);
+            this.ClientSize = new System.Drawing.Size(442, 199);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox1);
