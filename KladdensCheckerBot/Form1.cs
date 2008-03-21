@@ -18,8 +18,9 @@ namespace Försök_till_egen_Bot
         private int ManaP;
         private int LP;
         private int MLP;
-
-
+        private int Xx;
+        private int Yy;
+        private int Zz;
 
 
         public Main()
@@ -52,12 +53,18 @@ namespace Försök_till_egen_Bot
                 ManaP = Client.ReadInt(0x00613B50);
                 LP = Client.ReadInt(0x00613B58);
                 MLP = Client.ReadInt(0x00613B54);
+                Xx = Client.ReadInt(0x0061E9C8);
+                Yy = Client.ReadInt(0x0061E9C4);
+                Zz = Client.ReadInt(0x0061E9C0);
 
 
                 hp.Text = "Loading...";
                 mana.Text = "Loading...";
                 level.Text = "Loading...";
                 ml.Text = "Loading...";
+                X.Text = "Calculating...";
+                Y.Text = "Calculating...";
+                Z.Text = "Calculating...";
 
 
 
@@ -76,22 +83,51 @@ namespace Försök_till_egen_Bot
             Health = Client.ReadInt(0x00613B6C);
             hp.Text = Health.ToString();
             {
-                mana.Text = Health.ToString();
+                X.Text = Xx.ToString();
 
-                ManaP = Client.ReadInt(0x00613B50);
-                mana.Text = ManaP.ToString();
+                Xx = Client.ReadInt(0x0061E9C8);
+                X.Text = Xx.ToString();
+                {
+                    Y.Text = Yy.ToString();
 
+                    Yy = Client.ReadInt(0x0061E9C4);
+                    Y.Text = Yy.ToString();
+                    {
+                        Z.Text = Zz.ToString();
+
+                        Zz = Client.ReadInt(0x0061E9C0);
+                        Z.Text = Zz.ToString();
+                        {
+
+
+                            mana.Text = ManaP.ToString();
+
+                            ManaP = Client.ReadInt(0x00613B50);
+                            mana.Text = ManaP.ToString();
+
+                        }
+                        level.Text = LP.ToString();
+
+                        LP = Client.ReadInt(0x00613B58);
+                        level.Text = LP.ToString();
+                        {
+
+
+                            ml.Text = MLP.ToString();
+
+                            MLP = Client.ReadInt(0x00613B5C);
+                            ml.Text = MLP.ToString();
+
+                        }
+
+
+
+
+
+
+                    }
+                }
             }
-            level.Text = LP.ToString();
-
-            LP = Client.ReadInt(0x00613B58);
-            level.Text = LP.ToString();
-
-
-
-
-
-            
         }
 
         private void status_Click(object sender, EventArgs e)
