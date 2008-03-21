@@ -1,0 +1,8 @@
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\bin\Release\KladdensCheckerBot.exe
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\bin\Release\KladdensCheckerBot.pdb
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Release\Försök_till_egen_Bot.Main.resources
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Release\Försök_till_egen_Bot.Properties.Resources.resources
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Release\KladdensCheckerBot.csproj.GenerateResource.Cache
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Release\KladdensCheckerBot.exe
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Release\KladdensCheckerBot.pdb
