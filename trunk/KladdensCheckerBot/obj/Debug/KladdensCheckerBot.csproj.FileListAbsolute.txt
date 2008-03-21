@@ -1,0 +1,16 @@
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\obj\Debug\Försök_till_egen_Bot.Main.resources
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\obj\Debug\Försök_till_egen_Bot.Properties.Resources.resources
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\obj\Debug\KladdensCheckerBot.csproj.GenerateResource.Cache
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\bin\Debug\Försök till egen Bot.exe
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\bin\Debug\Försök till egen Bot.pdb
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\obj\Debug\Försök till egen Bot.exe
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\obj\Debug\Försök till egen Bot.pdb
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\bin\Debug\KladdensCheckerBot.exe
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\bin\Debug\KladdensCheckerBot.pdb
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Debug\Försök_till_egen_Bot.Main.resources
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Debug\Försök_till_egen_Bot.Properties.Resources.resources
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Debug\KladdensCheckerBot.csproj.GenerateResource.Cache
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Debug\KladdensCheckerBot.exe
+C:\Users\Jesper\Documents\Visual Studio 2008\Projects\KladdensCheckerBot\KladdensCheckerBot\obj\Debug\KladdensCheckerBot.pdb

@@ -1,0 +1,4 @@
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\obj\Debug\Försök_till_egen_Bot.Main.resources
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\obj\Debug\Försök_till_egen_Bot.Properties.Resources.resources
+C:\Users\Jesper\AppData\Local\Temporary Projects\Försök till egen Bot\obj\Debug\Försök till egen Bot.csproj.GenerateResource.Cache
