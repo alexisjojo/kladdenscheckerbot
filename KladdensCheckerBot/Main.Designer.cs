@@ -58,9 +58,15 @@
             this.label10 = new System.Windows.Forms.Label();
             this.X = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.helmet = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lol
@@ -106,7 +112,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 164);
+            this.button1.Location = new System.Drawing.Point(15, 167);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(418, 23);
             this.button1.TabIndex = 4;
@@ -117,6 +123,7 @@
             // timer1
             // 
             this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // groupBox1
@@ -130,7 +137,7 @@
             this.groupBox1.Controls.Add(this.hp);
             this.groupBox1.Controls.Add(this.mana);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(15, 11);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.groupBox1.Size = new System.Drawing.Size(248, 60);
@@ -186,7 +193,7 @@
             this.groupBox4.Controls.Add(this.ml);
             this.groupBox4.Controls.Add(this.label3);
             this.groupBox4.Controls.Add(this.level);
-            this.groupBox4.Location = new System.Drawing.Point(12, 77);
+            this.groupBox4.Location = new System.Drawing.Point(15, 78);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(248, 75);
             this.groupBox4.TabIndex = 8;
@@ -214,16 +221,15 @@
             this.label5.Size = new System.Drawing.Size(20, 15);
             this.label5.TabIndex = 10;
             this.label5.Text = "[ - ";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(25, 46);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(135, 13);
+            this.label4.Size = new System.Drawing.Size(147, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Percent To Next ML    ~* >";
+            this.label4.Text = "Percent Gained To ML    ~* >";
             // 
             // ml
             // 
@@ -239,9 +245,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(23, 17);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 13);
+            this.label3.Size = new System.Drawing.Size(149, 13);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Percent To Next Level ~* >";
+            this.label3.Text = "Percent Gained To Level ~* >";
             // 
             // level
             // 
@@ -263,9 +269,9 @@
             this.groupBox5.Controls.Add(this.label10);
             this.groupBox5.Controls.Add(this.X);
             this.groupBox5.Controls.Add(this.label8);
-            this.groupBox5.Location = new System.Drawing.Point(266, 15);
+            this.groupBox5.Location = new System.Drawing.Point(269, 6);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(164, 124);
+            this.groupBox5.Size = new System.Drawing.Size(164, 121);
             this.groupBox5.TabIndex = 9;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Position";
@@ -308,9 +314,9 @@
             this.Z.AutoSize = true;
             this.Z.Location = new System.Drawing.Point(65, 82);
             this.Z.Name = "Z";
-            this.Z.Size = new System.Drawing.Size(41, 13);
+            this.Z.Size = new System.Drawing.Size(11, 13);
             this.Z.TabIndex = 5;
-            this.Z.Text = "label13";
+            this.Z.Text = "*";
             // 
             // label12
             // 
@@ -326,9 +332,9 @@
             this.Y.AutoSize = true;
             this.Y.Location = new System.Drawing.Point(65, 52);
             this.Y.Name = "Y";
-            this.Y.Size = new System.Drawing.Size(41, 13);
+            this.Y.Size = new System.Drawing.Size(11, 13);
             this.Y.TabIndex = 3;
-            this.Y.Text = "label11";
+            this.Y.Text = "*";
             // 
             // label10
             // 
@@ -344,9 +350,9 @@
             this.X.AutoSize = true;
             this.X.Location = new System.Drawing.Point(65, 23);
             this.X.Name = "X";
-            this.X.Size = new System.Drawing.Size(35, 13);
+            this.X.Size = new System.Drawing.Size(11, 13);
             this.X.TabIndex = 1;
-            this.X.Text = "label9";
+            this.X.Text = "*";
             // 
             // label8
             // 
@@ -357,15 +363,53 @@
             this.label8.TabIndex = 0;
             this.label8.Text = "X :";
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Location = new System.Drawing.Point(12, 5);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(460, 234);
+            this.tabControl1.TabIndex = 10;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.groupBox1);
+            this.tabPage1.Controls.Add(this.groupBox5);
+            this.tabPage1.Controls.Add(this.groupBox4);
+            this.tabPage1.Controls.Add(this.button1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(452, 208);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Status";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // helmet
+            // 
+            this.helmet.AutoSize = true;
+            this.helmet.Location = new System.Drawing.Point(71, 27);
+            this.helmet.Name = "helmet";
+            this.helmet.Size = new System.Drawing.Size(35, 13);
+            this.helmet.TabIndex = 1;
+            this.helmet.Text = "label2";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(6, 27);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(46, 13);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "Helmet :";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(442, 199);
-            this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(485, 255);
+            this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
@@ -377,6 +421,8 @@
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -411,6 +457,10 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Label helmet;
+        private System.Windows.Forms.Label label14;
     }
 }
 
